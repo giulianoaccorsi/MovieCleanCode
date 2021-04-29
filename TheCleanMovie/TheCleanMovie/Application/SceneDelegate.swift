@@ -71,31 +71,3 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     
     
 }
-
-//        guard let _ = (scene as? UIWindowScene) else { return }
-//        guard let windowScene = (scene as? UIWindowScene) else { return }
-//        window = UIWindow(frame: windowScene.coordinateSpace.bounds)
-//        window?.windowScene = windowScene
-//
-//        let tabBar: UITabBarController = {
-//            let tabBar = UITabBarController()
-//            tabBar.view.tintColor = .orange
-//            return tabBar
-//        }()
-//
-//        let movieScene = MoviesScene()
-//
-//        movieScene.tabBarItem = UITabBarItem(title: "Movies", image: #imageLiteral(resourceName: "icons8-a_home"), selectedImage: #imageLiteral(resourceName: "icons8-home_filled"))
-//        movieScene.tabBarItem.tag = 0
-//
-//        let favoriteScene = UIViewController()
-//        favoriteScene.tabBarItem = UITabBarItem(title: "Favorites", image:#imageLiteral(resourceName: "icons8-film_reel"), selectedImage: #imageLiteral(resourceName: "icons8-film_reel_filled"))
-//        favoriteScene.tabBarItem.tag = 1
-//
-//        let viewControllerList = [ movieScene, favoriteScene ]
-//        tabBar.viewControllers = viewControllerList.map { UINavigationController(rootViewController: $0)}
-//
-//        MoviesConfigurator.configureModule(viewController: movieScene)
-//
-//        window?.rootViewController = tabBar
-//        window?.makeKeyAndVisible()
